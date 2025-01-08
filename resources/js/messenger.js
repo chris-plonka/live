@@ -704,12 +704,6 @@ $(document).ready(function () {
         sendMessage();
     });
 
-    //    window.addEventListener("keypress", function (e) {
-    //      if (e.key === "Enter") {
-    //        $(".message-form").submit();
-    //    }
-    //   });
-
     // send attachment
     $(".attachment-input").change(function () {
         imagePreview(this, ".attachment-preview");
